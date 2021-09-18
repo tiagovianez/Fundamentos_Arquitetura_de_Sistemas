@@ -1,12 +1,10 @@
-Prof. Jefferson Stachelski | @ jeffhsta
-
-Software engineer at Meltwater
-
 
 
 ### Monolito
 
-![image-20210912223943359](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912223943359.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868182-8256d48b-629d-4a24-88e6-0da363f207b5.png" width="500px" />
+</div>
 
 * O mecanismo mais simples, as aplicações iniciam por ele. É um único codebase, aplicação única.
 
@@ -17,7 +15,10 @@ Software engineer at Meltwater
 
 ### Microserviços #1
 
-![image-20210912224420736](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912224420736.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868200-4f29d4f3-b8ee-4298-b05a-842d8dbe8844.png" width="500px" />
+</div>
+
 
 * Um serviço para cada operação
 * Nodo 1 equivale a um monolito
@@ -28,7 +29,10 @@ Software engineer at Meltwater
 
 ### Microservicos #2
 
-![image-20210912224917284](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912224917284.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868228-e2336cc4-040d-450f-a9bd-c43372b3d4d1.png" width="500px" />
+</div>
+
 
 * Não há mais um canal de comunicação direta, ao invés disso, haverá um Message Broker
 * A vantagem disso é que não haverá dependência de um serviço para outro, justamente pelo fato, de que todas informações irão passar por um Message Broker.
@@ -39,7 +43,10 @@ Software engineer at Meltwater
 
 ### Microserviços #3
 
-![microservicos3](C:\Users\Tiago\Documents\Studies\Desenvolvimento Profissional\Data_Driven\DIO\CloudDataEngineer\microservicos3.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868374-81a1b747-a8a6-4fb5-88e2-bf6d31a395f6.png" width="500px" />
+</div>
+
 
 * Gerenciador de Pipeline (Ex.: Kamuda, AWS..)
 * A Request entra pelo Proxy, em seguida vai até o Gerenciador de Pipeline, através daquela request ele irá interpretar e transmitir para determinado serviço, até encerrar o Pipeline.

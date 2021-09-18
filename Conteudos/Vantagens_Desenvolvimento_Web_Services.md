@@ -1,9 +1,3 @@
-Prof. Rafael Galleani
-
-Sênior Developer - Next Engineering
-
-
-
 ## O que são Web Services (WS)
 
 * São soluções para aplicações **se comunicarem independente de linguagem**, softwares e hardwares utilizados

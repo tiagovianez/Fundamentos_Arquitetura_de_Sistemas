@@ -53,13 +53,7 @@ São componentes vestíveis, no qual irá coletando os dados da nossa saúde, do
 
 #### Smart Transportation
 
-Tesla: Carros autônomos
-
-
-
-#### RFID Supply Chain
-
- 
+Tesla: Carros autônomos 
 
 
 
@@ -161,7 +155,13 @@ Uso doméstico e comercial
 
 É importante que todos se comuniquem na mesma língua. E o MQTT fará isso!
 
-![image-20210915001652755](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915001652755.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866481-a2b79a74-ffbc-481a-b1f9-f023c50af344.png" width="500px" />
+</div>
+
+
+
 
 - Base na pilha do TCP/IP
 
@@ -173,7 +173,13 @@ Uso doméstico e comercial
 
 #### Modelo Cliente Servidor
 
-![image-20210915210518481](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915210518481.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866591-c94ac0d3-d51a-4e64-a397-8ec2dd8b6b57.png" width="500px" />
+</div>
+
+
+
 
 * Endereço de site (quando eu digito esse endereço, eu sou o client)
 
@@ -184,7 +190,11 @@ Uso doméstico e comercial
 
 #### Modelo Publish/Subscribe
 
-![image-20210915210824812](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915210824812.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866672-db672e53-d885-427a-a306-07c18b8d5129.png" width="500px" />
+</div>
+
 
 
 
@@ -198,13 +208,21 @@ Um dispositivo publicando mensagem pode alimentar muitos softwares dispositivos 
 
 #### Publish
 
-![image-20210915211202231](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915211202231.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866702-32665c9b-2dfb-4f7d-9084-1d3fe38625f9.png" width="500px" />
+</div>
+
 
 
 
 ## Flexibillidade dos Tópicos e Cloud
 
-![image-20210915211425827](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915211425827.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866722-4b4759e5-63d3-44ba-98c3-02629f8a3e0e.png" width="500px" />
+</div>
+
+
 
 - Isso irá permitir modelar o sistema conforme a necessidade
   Cada veículo em determinado momento, assim que receber uma  posição geográfica do GPS (Tracker ou Android), assim que receber essa informação ele irá publicar no broker com seu ID específico.
@@ -213,13 +231,22 @@ Um dispositivo publicando mensagem pode alimentar muitos softwares dispositivos 
 
 #### Subscribe
 
-![image-20210915211913761](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915211913761.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866736-3dfde5ab-ed18-4eb9-9f8e-d9432cb1258e.png" width="500px" />
+</div>
+
+
 
 Capacidade que um cliente, software ou device tem de se conectar ao broker e ouvir o broker.
 
 #### Posições de usuário específico
 
-![image-20210915212048542](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915212048542.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866755-f5aa6f9c-b8f2-41b5-b8f5-169a035837e2.png" width="500px" />
+</div>
+
 
 1) Descreve a posição do usuário
 2) Descreve a velocidade do gps
@@ -233,16 +260,19 @@ Capacidade que um cliente, software ou device tem de se conectar ao broker e ouv
 #### QoS 0
 
 Níveis diferentes de qualidade de serviço
-
-![image-20210915212842521](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915212842521.png)
-
 É o nível mais barato, mais otimista e de menor esforço. 
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866772-e7862fd2-a654-4de4-9d9a-5f997f1dbd1e.png" width="500px" />
+</div>
 
 
 
 #### QoS 1
 
-#### ![image-20210915213051664](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915213051664.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866782-e16d80c3-993d-481d-b7e4-75cd0e91b1c8.png" width="500px" />
+</div>
 
 É o mecanismo mais comum de protocolo MQTT
 
@@ -250,7 +280,9 @@ Níveis diferentes de qualidade de serviço
 
 #### QoS 2
 
-![image-20210915213343431](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915213343431.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866799-146d0b69-c1b1-421d-8dc3-f133ee92365f.png" width="500px" />
+</div>
 
 É o nível mais caro, pois há no mínimo dois pares de servidores para comunicação.
 
@@ -270,7 +302,9 @@ Níveis diferentes de qualidade de serviço
 
 #### Para o estudo de caso
 
-![image-20210915214105368](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915214105368.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866842-ab91a595-0890-458f-ab7f-78f93cd87212.png" width="500px" />
+</div>
 
 1) **Data Store:** Irá armazenar as infomações geográficas em uma base de dados onde elas irão permenecer por um tempo necessário no qual irei utilizá-lo em determinado momento para **gerar informações (insights)**
 2) **Cache (Real Time Analytics):** Irá disponibilizar ao usuário a informação mais atualizada da posição de cada veículo. 
@@ -287,7 +321,11 @@ Níveis diferentes de qualidade de serviço
 
 
 
-![image-20210915215511562](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915215511562.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866864-808c0499-2b9f-4ba2-9000-94c5922b6abb.png" width="500px" />
+</div>
+
+
 
 * O armazenamento da informação dentro da nuvem, **precisará ser bem pensada;**
 * Sempre estaremos dando com informações geradas das mais diversas naturezas pelos dispositivos (olhar da IoT) e existe a possibilidade desses dispositivos escalarem significativamente;
@@ -301,7 +339,10 @@ Níveis diferentes de qualidade de serviço
 
 ## Estudo de Caso (Part. III)
 
-![image-20210915224015082](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915224015082.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866877-7a8debda-279e-4c3d-9767-fc8c9e786b1a.png" width="500px" />
+</div>
+
 
 * Coletar dados de uma frota de veículo
 * Disponibilizar esses dados real time para o cliente
@@ -324,15 +365,21 @@ Data Store
 
 ### Prova de Conceito (Teste mais rápido de ponta a ponta)
 
-![image-20210915225116270](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915225116270.png)
 
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866890-a7806709-a46c-4638-bd0b-d94cdfbe007b.png" width="500px" />
+</div>
 
 
 
 
 ### Mínimo Produto Viável (Mais robusta - empresarial)
 
-![image-20210915225523787](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915225523787.png)
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866932-9f33f984-4054-46d4-bc96-2d793cb0fb55.png" width="500px" />
+</div>
+
 
 * Evolução para uma carga maior de dados escaláveis 
 * HiveMQ (Broker bastante conhecida no meio corporativo)
@@ -346,7 +393,10 @@ Data Store
 
 ### Solução em Cloud (AWS)
 
-![image-20210915225947199](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915225947199.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133866932-9f33f984-4054-46d4-bc96-2d793cb0fb55.png" width="500px" />
+</div>
+
 
 * IoT Core: Broker
 * AWS Kinesis Firehose: DataStreaming (Fluxo constante de dados), através dele irá interpretar os dados do IoT Core e transmitir para a AWS S3
@@ -358,7 +408,9 @@ Data Store
 
 ### IoT na Prática (Interface Gráfica / Aplicação Web)
 
-![image-20210915230427385](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915230427385.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133867000-b6ce2f67-00d9-419a-81e1-0be44b221b23.png" width="500px" />
+</div>
 
 
 
@@ -366,7 +418,12 @@ Data Store
 
 ### IoT na Prática (Cloud)
 
-![image-20210915230517975](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915230517975.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133867030-cb5a403a-b04b-49d5-92d4-ede8216fbdcb.png" width="500px" />
+</div>
+
+
+
 
 * **AWS Lambda:** Uma função (unidade de código) pela Amazon, **ela dispararia sempre quando houver um dado novo da posição geográfica de determinado veículo (Lat e Long).** A função de execução é a alimentação de área de Cache (ElasticCache Redis).  Informando a chave (Id User) e o valor da chave (Lat; Long). A diferença é que **a Lambda sempre irá armazenar a última informação coletada do User**, ou seja, **a mais atual;**
 
@@ -374,7 +431,11 @@ Data Store
 
 
 
-![image-20210915232249668](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210915232249668.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133867047-a368cf72-241a-494d-8833-531f57f94b7c.png" width="500px" />
+</div>
+
+
 
 * Criar um back-end 
 * AWS EC2 são máquinas virtuais (são servidores que rodam linux e windows)

@@ -71,7 +71,10 @@ Com IoT, é possível coletar dados, tanto de fontes geradoras de energia, quand
 
 #### Computação Ubíqua
 
-![image-20210914232353191](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210914232353191.png)
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/78626907/133865891-802f8b09-6e31-42a2-a1d7-90db2815a356.png" width="300px" />
+</div>
 
 
 

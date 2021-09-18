@@ -1,8 +1,3 @@
-Prof. Oswaldo Neto
-
-CTO - Lady Driver
-
-
 ## Conceito da Internet das Coisas (Part. I)
 
 Coisas que não são pessoas, começam a usar dessa rede mundial  e a partir daí trocar dados. No qual é o objetivo maior além de conhecer pessoas.

@@ -65,14 +65,17 @@
 
 * SOAP Body é o elemento que contém os detalhes da mensagem
 
-  ### Estruturas do SOAP
 
-  ![image-20210912185501090](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912185501090.png)
+### Estruturas do SOAP
+
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868797-956ca006-ef2e-4242-98d8-ec71dce08159.png" width="500px" />
+</div>
 
 
-
-![image-20210912190055553](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912190055553.png)
-
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868842-7aaf00fb-fd95-40ab-9cba-6125c2a2715b.png" width="500px" />
+</div>
 
 
 
@@ -115,7 +118,9 @@
 
 ### Estrutura do REST
 
-![image-20210912203854241](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912203854241.png)
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868858-c2be7197-3f9b-43ee-a8c0-ece19a6e4db3.png" width="500px" />
+</div>
 
 
 
@@ -146,9 +151,9 @@
 
 ### Estrutura do JSON
 
-![image-20210912205136118](C:\Users\Tiago\AppData\Roaming\Typora\typora-user-images\image-20210912205136118.png)
-
-
+<div align="left">
+<img src="https://user-images.githubusercontent.com/78626907/133868870-453f44ca-8372-41d2-ad69-acb798edadf6.png" width="500px" />
+</div>
 
 
 

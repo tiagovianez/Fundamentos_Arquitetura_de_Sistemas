@@ -2,9 +2,6 @@ Prof. Oswaldo Neto
 
 CTO - Lady Driver
 
-https://www.linkedin.com/in/omneto/
-
-
 
 ## Conceito da Internet das Coisas (Part. I)
 
